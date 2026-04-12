@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jgowdy/awsenc/releases/download/v0.1.0/awsenc-x86_64-pc-windows-msvc.zip",
-            "hash": "078f1376ef87adffdb95876800071569ac9f240437f00c8450b1d4834770a073"
+  "url": "https://github.com/jgowdy/awsenc/releases/download/v0.1.0/awsenc-x86_64-pc-windows-msvc.zip",
+  "hash": "dc97c8cb09d16c0bf7fab9bee01e747acd2c273b9f0862b7780347e66b15a805"
         }
     },
     "bin": [
