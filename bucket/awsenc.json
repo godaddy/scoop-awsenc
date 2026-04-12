@@ -1,12 +1,12 @@
 {
-    "version": "0.3.2",
+    "version": "0.4.0",
     "description": "Hardware-backed AWS credential manager (Windows TPM 2.0)",
     "homepage": "https://github.com/jgowdy/awsenc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-  "url": "https://github.com/jgowdy/awsenc/releases/download/v0.3.2/awsenc-x86_64-pc-windows-msvc.zip",
-  "hash": "c269dcc328e85c9a00661d4b679ff19bd7c65c6adcfab9149b4115a5d8411a91"
+  "url": "https://github.com/jgowdy/awsenc/releases/download/v0.4.0/awsenc-x86_64-pc-windows-msvc.zip",
+  "hash": "b52607815f6a07099af756abb23cb338a918a19d855844dc9da87b128a621b7c"
         }
     },
     "bin": ["awsenc.exe","awsenc-tpm-bridge.exe"]
