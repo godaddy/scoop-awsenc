@@ -1,22 +1,13 @@
 {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Hardware-backed AWS credential manager (Windows TPM 2.0)",
     "homepage": "https://github.com/jgowdy/awsenc",
     "license": "MIT",
     "architecture": {
         "64bit": {
-  "url": "https://github.com/jgowdy/awsenc/releases/download/v0.2.0/awsenc-x86_64-pc-windows-msvc.zip",
-  "hash": "350ec595d69ce580e1e5e549111340d9d7266e9f1dd4046019515b1cd9f0f1e8"
+  "url": "https://github.com/jgowdy/awsenc/releases/download/v0.3.0/awsenc-x86_64-pc-windows-msvc.zip",
+  "hash": "be55149184589fa567f377830d459922cca258fa70757eae4f08e003bab790ce"
         }
     },
-    "bin": [
-        "awsenc.exe",
-        "awsenc-tpm-bridge.exe"
-    ],
-    "post_install": "Write-Host 'Run \"awsenc install --profile <name>\" to configure the AWS CLI.'",
-    "notes": [
-        "Run 'awsenc install --profile <name>' to configure the AWS CLI.",
-        "Run 'awsenc auth <profile>' to authenticate with Okta.",
-        "Run 'awsenc shell-init powershell' for shell integration."
-    ]
+    "bin": ["awsenc.exe","awsenc-tpm-bridge.exe"]
 }
